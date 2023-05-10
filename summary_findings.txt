@@ -1,0 +1,44 @@
+
+I used the sales data in the YouTube video as reference and created visualizations according to my own ideas
+
+DATASET INFORMATION
+
+This is a dataset containing sales data for a store in 3 cities in 2021. Each row represents a single sale transaction and contains information about the customer, the products sold, the quantity and price, as well as information about the payment method, date and time of the transaction, and the rating given by the customer. The dataset contains 1,000 rows and 17 columns. Some of the columns are:
+
+Invoice ID: a unique identifier for each sale transaction
+Branch: the branch of the store where the sale was made (there are three branches)
+City: the city where the store is located 
+Customer_type: whether the customer is a member or not
+Gender: the gender of the customer
+Product line: the type of product sold
+Unit price: the price of a single unit of the product
+Quantity: the number of units sold
+Tax 5%: the tax amount added to the sale
+Total: the total amount paid by the customer
+Date: the date of the transaction
+Time: the time of the transaction
+Payment: the payment method used by the customer
+cogs: cost of goods sold (i.e., the cost of producing the products sold)
+gross margin percentage: the gross margin percentage for the sale
+gross income: the gross income for the sale (i.e., the profit made from the sale)
+Rating: the rating given by the customer on a scale of 1 to 10. 
+
+VISUALIZATIONS SUMMARY:
+Based on the selected data frame according to city, gender, and customer type - Default is all cities, all type of customers, all genders the below are the findings: 
+
+
+Findings: 
+1. From correlation matrix visualized through Heat Map columns - Total, Quantity, Unit Price, Tax 5%, we observe least correlation between Quantity and Unit Price. Moderate Correlation between Unit Price, Tax 5% and Total. Highest correlation between Tax 5 % and Total.
+
+2. From scatter plot used to visualize the relationship between two variables, such as Customer Type and Rating, we observe the average rating of a gender male/female according to their customer type. In the normal customer type average rating of male is more when compared to female
+
+3. I used Line chart to create to visualize the trend of average rating over time to see if there are any changes in customer satisfaction. There is no trend or seasonality, the plot is not stationary and is random.
+
+4. Bubble plot explains the most profitable product lines and its gross income, total sales and the quantity sold. This can help me to identify product lines that are benefitable upon marketing. Electronic Accessories and Food and Beverages are top 2 product lines with more quantity sold and more gross income.
+
+5. Grouped bar chart is used to compare which gender is frequently using which payment type, E wallet is mostly used by male and cash/ credit card is mostly used by female.
+
+6. Vertical Bar chart explains what is the total sales done at the end of each over. It is not cumulative sum, rather is individual total sales at the end of each hour. Highest sales observed in the evening at 7pm, peak hours. Lowest at the end of the day 8pm closing time.
+
+7. Horizontal Bar chart explains total sales for each product line, Highest sales is for Food and Beverages followed by Sports and electronic accessories
+
