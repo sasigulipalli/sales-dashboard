@@ -4,5 +4,5 @@ Created a sales dashboard using stream list along with the findings from dashboa
 run the file:
 streamlit run app.py
 
-stop the dashboard
+stop the dashboard:
 control c
